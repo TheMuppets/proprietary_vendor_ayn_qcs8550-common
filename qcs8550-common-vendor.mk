@@ -446,7 +446,6 @@ PRODUCT_PACKAGES += \
     libnetmgrxfrmutils \
     liboemcrypto \
     libops \
-    libpasrutils \
     libpdmapper \
     libpdnotifier \
     libperfconfig \
