@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
-    vendor/ayn/qcs8550-common/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
@@ -145,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
-    vendor/ayn/qcs8550-common/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/ayn/qcs8550-common/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
@@ -492,7 +490,6 @@ PRODUCT_PACKAGES += \
     libqdcm-mode-parser \
     libqdi \
     libqesdk2_0 \
-    libqesdk_manager \
     libqisl \
     libqmi \
     libqmi_cci \
@@ -654,13 +651,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
-    vendor.qti.qesdhal@1.0 \
-    vendor.qti.qesdhal@1.1 \
-    vendor.qti.qesdhal@1.2 \
-    vendor.qti.qesdhal@1.3 \
-    vendor.qti.qesdhal@1.4-impl \
-    vendor.qti.qesdhal@1.4 \
-    vendor.qti.qesdsys-V3-ndk \
     vendor.qti.qspmhal@1.0-impl \
     vendor.qti.qspmhal@1.0_vendor \
     vendor.qti.spu@1.0 \
@@ -836,7 +826,6 @@ PRODUCT_PACKAGES += \
     poweropt-service \
     ppd \
     qdcmss \
-    qesdk-manager \
     qmipriod \
     qrtr-cfg \
     qrtr-lookup \
