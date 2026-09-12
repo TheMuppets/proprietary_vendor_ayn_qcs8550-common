@@ -296,7 +296,6 @@ PRODUCT_COPY_FILES += \
     vendor/ayn/qcs8550-common/proprietary/vendor/firmware/gen70e00_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70e00_zap.mbn \
     vendor/ayn/qcs8550-common/proprietary/vendor/firmware/gmu_gen70200.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70200.bin \
     vendor/ayn/qcs8550-common/proprietary/vendor/firmware/gmu_gen70e00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70e00.bin \
-    vendor/ayn/qcs8550-common/proprietary/vendor/firmware/kiwi/amss20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/kiwi/amss20.bin \
     vendor/ayn/qcs8550-common/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
     vendor/ayn/qcs8550-common/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
     vendor/ayn/qcs8550-common/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
